@@ -58,10 +58,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-[#FFFFFF] mb-4 font-dmsans">SERVICES</h4>
             <address className="not-italic text-sm space-y-3 text-[#CFCFCF] font-dmsans">
-              <p>Pioneer Tower Premises No. 20–085, Street No. 85, Opposite Tank No. 2, 1st Floor, Action Area - I, Plot - AB-109, Newtown, West Bengal 700156</p>
-              <div className="flex items-start gap-3"><div className="text-sm text-[#CFCFCF] font-dmsans">+7439537213</div></div>
-              <div className="flex items-start gap-3"><div className="text-sm text-[#CFCFCF] font-dmsans">example@gmail.com</div></div>
-              <div className="flex items-start gap-3"><div className="text-sm text-[#CFCFCF] font-dmsans">bestcatering.com</div></div>
+              <p className="flex gap-3"><img className="h-4 w-4 " src={assets.location} alt=""/> Pioneer Tower Premises No. 20–085, Street No. 85, Opposite Tank No. 2, 1st Floor, Action Area - I, Plot - AB-109, Newtown, West Bengal 700156</p>
+              <div className="flex items-start gap-3"><img className="h-4 w-4" src={assets.phone} alt=""/><div className="text-sm text-[#CFCFCF] font-dmsans">+7439537213</div></div>
+              <div className="flex items-start gap-3"><img className="h-4 w-4" src={assets.mail} alt=""/><div className="text-sm text-[#CFCFCF] font-dmsans">example@gmail.com</div></div>
+              <div className="flex items-start gap-3"><img className="h-4 w-4" src={assets.browser} alt=""/><div className="text-sm text-[#CFCFCF] font-dmsans">bestcatering.com</div></div>
             </address>
           </div>
         </div>

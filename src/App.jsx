@@ -1,6 +1,9 @@
 import React from "react";
 import Footer from "./component/Footer";
 import "./index.css"; // make sure this imports Tailwind
+import HowItWorks from "./component/HowItWorks";
+import FaqsSection from "./component/FaqsSection";
+import WhatWeOffer from "./component/WhatWeOffer";
 
 function App() {
   return (
@@ -12,7 +15,9 @@ function App() {
           <div style={{height: "600px"}}></div>
         </div>
       </main>
-
+      <WhatWeOffer/>
+      <HowItWorks/>
+      <FaqsSection/>
       <Footer />
     </div>
   );
