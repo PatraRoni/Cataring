@@ -20,7 +20,7 @@ import first from "./1.jpg"
 import sceond from "./2.jpg"
 import third from "./3.jpg"
 import forth from "./4.jpg"
-
+import logo1 from "./navlogo.png"
 
 export const assets = {
     facebook,
@@ -44,5 +44,7 @@ export const assets = {
     first,
     sceond,
     third,
-    forth
+    forth,
+    logo1
+    
 }
