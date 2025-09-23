@@ -4,6 +4,12 @@ import "./index.css"; // make sure this imports Tailwind
 import HowItWorks from "./component/HowItWorks";
 import FaqsSection from "./component/FaqsSection";
 import WhatWeOffer from "./component/WhatWeOffer";
+import Serve from "./component/Serve";
+import ServicesSection from "./component/ServicesSection";
+import MenuSection from "./component/MenuSection";
+import About from "./component/About";
+import MenuGrid from "./component/MenuGrid";
+import CustomerForm from "./component/CustomerForm";
 
 function App() {
   return (
@@ -15,6 +21,12 @@ function App() {
           <div style={{height: "600px"}}></div>
         </div>
       </main>
+      <MenuGrid/>
+      <CustomerForm/>
+      <About/>
+      <MenuSection/>
+      <ServicesSection/>
+      <Serve/>
       <WhatWeOffer/>
       <HowItWorks/>
       <FaqsSection/>

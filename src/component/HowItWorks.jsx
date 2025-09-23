@@ -42,15 +42,15 @@ export default function HowItWorks() {
         {steps.map((step, idx) => (
           <div key={idx} className="flex flex-col items-center text-center space-y-6">
       {/* Icon + Title */}
-           <div className="flex  items-center space-y-4">
+           <div className="flex  items-right space-y-4">
             <img className="h-20 w-20" src={assets.hiw} alt="" />
-            <h3 className="font-dmSans font-semibold text-[26px] leading-[25px] tracking-[-0.08em] capitalize text-[#273F00]">
+            <h3 className="font-dmSans ml-4 font-semibold text-[26px] text-left leading-[25px] tracking-[-0.08em] capitalize text-[#273F00]">
               {step.title}
             </h3>
        </div>
 
       {/* Description */}
-          <p className="font-dmSans font-normal text-[16px] leading-[18px] tracking-[0em] capitalize text-gray-600">
+          <p className="font-dmSans text-left font-normal text-[16px] leading-[18px] tracking-[0em] capitalize text-gray-600">
         {step.description}
       </p>
     </div>

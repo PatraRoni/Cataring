@@ -97,7 +97,7 @@ export default function FaqsSection() {
                       aria-hidden={!isOpen}
                       className={`mt-3 overflow-hidden transition-all duration-300 ${isOpen ? "max-h-40" : "max-h-0"}`}
                     >
-                      <p className="font-dmSans text-[16px] leading-[18px] text-gray-600">
+                      <p className="font-dmSans text-[16px] leading-[18px] text-[#000000]">
                         {item.a}
                       </p>
                     </div>

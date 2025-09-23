@@ -18,7 +18,7 @@ export default function Footer() {
               
 
               <div>
-                <h3 className=" font-inter font-extrabold text-[48px] leading-[100%] tracking-[-0.05em] uppercase text-[#9C9C9C]">
+                <h3 className=" font-inter font-extrabold text-[48px] leading-[100%] tracking-[-0.05em] uppercase font-dmsans">
                     BEST
                     <br />
                     CATERERS
