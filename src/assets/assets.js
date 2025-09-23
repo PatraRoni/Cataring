@@ -21,6 +21,11 @@ import sceond from "./2.jpg"
 import third from "./3.jpg"
 import forth from "./4.jpg"
 import logo1 from "./navlogo.png"
+import main from "./main.png"
+import hero from "./hero.png"
+import hero1 from "./hero1.png"
+import right_arrow from "./right_arrow.png"
+import special from "./special.png"
 
 export const assets = {
     facebook,
@@ -45,6 +50,11 @@ export const assets = {
     sceond,
     third,
     forth,
-    logo1
+    logo1,
+    main,
+    hero,
+    hero1,
+    right_arrow,
+    special
     
 }

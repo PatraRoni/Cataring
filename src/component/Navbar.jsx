@@ -78,7 +78,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md p-4 sticky mx-10 top-0 z-50">
+    <nav className="bg-white shadow-md p-4 sticky mx-10 rounded-lg top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -174,8 +174,8 @@ const Navbar = () => {
             </ul>
           </nav>
 
-          <div className="mt-6 w-full">
-            <a href="tel:+74385937213" className="text-green-500 font-bold">
+          <div className="mt-6 w-30 bg-[#7EC900] rounded">
+            <a href="tel:+74385937213" className="text-white font-bold">
               +74385937213
             </a>
           </div>

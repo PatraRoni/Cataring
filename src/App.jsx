@@ -11,6 +11,8 @@ import About from "./component/About";
 import MenuGrid from "./component/MenuGrid";
 import CustomerForm from "./component/CustomerForm";
 import Navbar from "./component/Navbar";
+import HomeAbout from "./component/HomeAbout";
+import Hero from "./component/Hero";
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
           <h1 className="text-4xl">Menu Section</h1>
         </section>
       </main>
+      <Hero/>
+      <HomeAbout/>
       <MenuGrid/>
       <CustomerForm/>
       <About/>
