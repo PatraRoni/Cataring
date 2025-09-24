@@ -26,6 +26,14 @@ import hero from "./hero.png"
 import hero1 from "./hero1.png"
 import right_arrow from "./right_arrow.png"
 import special from "./special.png"
+import img1 from "./img1.jpg"
+import img2 from "./img2.jpg"
+import img3 from "./img3.jpg"
+import img4 from "./img4.jpg"
+import img5 from "./img5.jpg"
+import img6 from "./img6.jpg"
+import test1 from "./test1.jpg"
+
 
 export const assets = {
     facebook,
@@ -55,6 +63,13 @@ export const assets = {
     hero,
     hero1,
     right_arrow,
-    special
+    special,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    test1
     
 }

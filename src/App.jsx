@@ -13,6 +13,8 @@ import CustomerForm from "./component/CustomerForm";
 import Navbar from "./component/Navbar";
 import HomeAbout from "./component/HomeAbout";
 import Hero from "./component/Hero";
+import ScrollingGallery from "./component/ScrollingGallery ";
+import TestimonialSection from "./component/TestimonialSection ";
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
           <h1 className="text-4xl">Menu Section</h1>
         </section>
       </main>
+      <TestimonialSection/>
+      <ScrollingGallery/>
       <Hero/>
       <HomeAbout/>
       <MenuGrid/>
